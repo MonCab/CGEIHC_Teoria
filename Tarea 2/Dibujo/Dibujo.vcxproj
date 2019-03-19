@@ -121,13 +121,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\Shader.cpp" />
-    <ClCompile Include="src\TimeManager.cpp" />
+    <ClInclude Include="src\Headers\Abstractmodel.h" />
+    <ClInclude Include="src\Headers\Box.h" />
+    <ClInclude Include="src\Headers\Camera.h" />
+    <ClInclude Include="src\Headers\Cylinder.h" />
+    <ClInclude Include="src\Headers\FirstPersonCamera.h" />
+    <ClInclude Include="src\Headers\QueueTransformation.h" />
+    <ClInclude Include="src\Headers\Shader.h" />
+    <ClInclude Include="src\Headers\Sphere.h" />
+    <ClInclude Include="src\Headers\TimeManager.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Headers\Shader.h" />
-    <ClInclude Include="src\Headers\TimeManager.h" />
+    <ClCompile Include="src\Box.cpp" />
+    <ClCompile Include="src\Cylinder.cpp" />
+    <ClCompile Include="src\FirstPersonCamera.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\QueueTransformation.cpp" />
+    <ClCompile Include="src\Shader.cpp" />
+    <ClCompile Include="src\Sphere.cpp" />
+    <ClCompile Include="src\TimeManager.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
