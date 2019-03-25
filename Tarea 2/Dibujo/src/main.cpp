@@ -42,7 +42,7 @@ int lastMousePosY;
 
 double deltaTime;
 
-int option = 0;
+int option = 2;
 
 // Se definen todos las funciones.
 void reshapeCallback(GLFWwindow* Window, int widthRes, int heightRes);

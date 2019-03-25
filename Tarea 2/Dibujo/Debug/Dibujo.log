@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\comunidad\desktop\repo\tarea 2\dibujo\src\main.cpp(1023): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\comunidad\desktop\repo\tarea 2\dibujo\src\main.cpp(1024): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Dibujo.vcxproj -> C:\Users\comunidad\Desktop\repo\Debug\Dibujo.exe
